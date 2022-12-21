@@ -1,0 +1,72 @@
+body{
+color: white;
+background-color: black;
+margin: 50px;
+
+}
+
+.container{
+   display: flex;  
+   flex: 0;
+
+
+}
+
+.victor{
+   margin-right: 100px;
+   flex-wrap: nowrap;
+  
+}
+.articles{
+   margin-right: 20px;
+}
+
+.chats{
+   margin-right: 20px;
+
+}
+.awards{
+   margin-right: 20px;
+}
+
+   #button{
+    background-color: yellow;
+    padding: 10px;
+    margin-left: auto;
+    align-self: flex-end;
+    flex: 0;
+   
+   }
+   .svgs{
+      display: flex;
+      margin: 40px;
+      gap: 20px;
+      
+   }
+   #box1{
+      width: 250px;
+   }
+   #box2{
+      width: 250px;
+   }
+   .spense{
+display: flex;  
+gap: 40px;
+
+   }
+
+   .yelp{
+      display: flex;
+      flex: 5;
+      
+   }
+   #p2{
+      margin-top: 50px;
+     
+   }
+   #p3{
+      margin-top: 50px;
+      margin-right: 50px;
+     
+   }
+
