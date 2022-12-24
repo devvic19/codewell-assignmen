@@ -49,24 +49,22 @@ margin: 50px;
    #box2{
       width: 250px;
    }
-   .spense{
-display: flex;  
-gap: 40px;
-
-   }
-
-   .yelp{
-      display: flex;
-      flex: 5;
-      
-   }
-   #p2{
-      margin-top: 50px;
+  
+   .grid {
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      grid-template-rows: repeat(2, auto);
+      grid-gap: 20px;
+    }
+    .paragraph{
+      display: grid;
+      grid-template-columns: repeat(2, 3fr);
+      grid-gap: 20px;
+      background-color: dimgrey;
+      padding: 20px;
+    }
+    
      
-   }
-   #p3{
-      margin-top: 50px;
-      margin-right: 50px;
-     
-   }
+    
+    
 
